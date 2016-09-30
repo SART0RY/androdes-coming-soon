@@ -350,11 +350,19 @@ input:-ms-input-placeholder {
     color: #51FFE8 !important;
 }
 
+input,
+input[type=submit] {
+    -webkit-border-radius:0px;
+    background: #000;
+    box-shadow: none;
+}
+
 .button {
     -webkit-appearance: none;
        -moz-appearance: none;
             appearance: none;
     background: #000;
+    box-shadow: none;
     border: none;
     color: #51FFE8;
     text-transform: uppercase;
