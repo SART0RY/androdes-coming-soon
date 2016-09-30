@@ -29,21 +29,28 @@ body {
 .logo-wrapper {
     position: relative;
     width: 80%;
-    height: 200px;
-    -webkit-filter: drop-shadow( 0px 0px 5px #51FFE8 );
-            filter: drop-shadow( 0px 0px 5px #51FFE8 ); /* Same syntax as box-shadow */
+    height: 20vh;
 }
 
 .logo {
     fill: #51FFE8;
     position: absolute;
+    width: 100%;
     -webkit-filter: drop-shadow( 0px 0px 5px #51FFE8 );
             filter: drop-shadow( 0px 0px 5px #51FFE8 ); /* Same syntax as box-shadow */
+}
+
+.logo .svg {
+    width: 100%;
 }
 
 .pulse {
     fill: #51FFE8;
     -webkit-animation: pulse 4s ease-in infinite;
+}
+
+.hidden {
+    display: none;
 }
 
 @-webkit-keyframes pulse {
